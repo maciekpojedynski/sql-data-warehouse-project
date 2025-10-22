@@ -17,5 +17,3 @@ LEFT JOIN silver.erp_px_cat_g1v2 as g1v2
 ON p.cat_id = g1v2.id
 WHERE p.prd_end_dt IS NULL --Filter out all historical data
 
-
-SELECT * FROM gold.dim_products;
